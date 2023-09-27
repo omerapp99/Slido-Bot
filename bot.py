@@ -58,12 +58,7 @@ class SlidoBot:
 def worker(HASH, XPATH):
     BOT = SlidoBot(HASH, XPATH)
     BOT.vote()
-
-
-def btest():
-    print(thAnim.is_alive())
-    print(thWorker.is_alive())
-
+    
 
 class threads_controller:
     def __init__(self):
